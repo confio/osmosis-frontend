@@ -1506,8 +1506,8 @@ const chainInfos = (
         },
       ],
       gasPriceStep: {
-        low: 0.025,
-        average: 0.05,
+        low: 0.05,
+        average: 0.075,
         high: 0.1,
       },
       features: ["stargate", "ibc-transfer", "no-legacy-stdTx", "ibc-go"],
