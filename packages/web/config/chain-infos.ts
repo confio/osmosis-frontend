@@ -1510,7 +1510,14 @@ const chainInfos = (
         average: 0.075,
         high: 0.1,
       },
-      features: ["stargate", "ibc-transfer", "no-legacy-stdTx", "ibc-go"],
+      features: [
+        "stargate",
+        "ibc-transfer",
+        "ibc-go",
+        "no-legacy-stdTx",
+        "wasmd_0.24+",
+        "cosmwasm",
+      ],
       explorerUrlToTx: "https://tgrade.aneka.io/txs/{txHash}",
     },
   ] as SimplifiedChainInfo[]
